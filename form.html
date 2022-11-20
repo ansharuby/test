@@ -1,2 +1,48 @@
-dcdcndlcmdcmdflcmfdnv
-dv ndfl ndflvk
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Forms</title>
+        <style>
+            label{
+                width:180px;
+                clear:left;
+                text-align: right;
+                
+            }
+           input, label{
+                
+                float: left;
+            }
+           ul{
+            list-style-type: none;
+           }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h1 style="margin: 50px; text-align:center">Form Demo</h1>
+            <ul>
+                <li><label for="fname">First name:</label>
+                <input type="text" id="fname" name="username">
+            </li>
+            <li><label for="pwd">password:</label>&nbsp;
+                <input type="password" id="pwd" name="password">
+            </li>
+            <li><label for="email">Email:</label>&nbsp;
+                <input type="email" id="email" name="mailid">
+            </li>
+            <li><label for="date">Birthday</label>&nbsp;
+                <input type="date" id="date" name="date">
+            </li>
+            <li><label for="prof">profession</label>&nbsp;
+                <select id="prof" name="designation">
+                 <option value="tester">Tester</option>
+                <option value="developer=">Developer</option>
+                 <option value="marketer">marketer</option></option>
+                    </select>
+                </li>
+        <li  >   <input type="submit"  > </li>
+        </ul>
+        </form>
+        </body>
+        </html>
